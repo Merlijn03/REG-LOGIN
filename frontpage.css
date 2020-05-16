@@ -1,0 +1,58 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Segoe UI";
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
+
+/* Sections */
+
+#frontpage {
+  width: 375px;
+  height: 812px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #25364F;
+  box-shadow: 0px 0px 12px 0px;
+}
+
+#frontpage .logo {
+  display: block;
+  margin: 0 auto;
+  width: 169px;
+  margin-top: 5em;
+}
+
+#frontpage h3 {
+  display: block;
+  text-align: center;
+  font-size: 64px;
+  color: #fff;
+  margin: 40px 0;
+}
+
+#frontpage a {
+  display: block;
+  margin: 0 auto;
+  background-color: #F0495A;
+  color: #fff;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+  width: 330px;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 35px;
+  text-align: center;
+}
